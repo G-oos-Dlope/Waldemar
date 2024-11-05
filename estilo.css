@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+  }
+  body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fb/Gaya_Haffkine01.jpg);
+    background-size: cover;
+  }
+  nav{
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #7575;
+    font-size: 44px;
+    margin-top: 50px;
+  }
+  .menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  .menu-horizontal > li:hover{
+    background-color: #696;
+  }  
+  .menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .menu-horizontal li:hover .menu-vertical{
+    display: block;
+  }
+  .menu-vertical li:hover{
+    background-color: black;
+  }
+  .menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+  }
+  h1 {
+    text-align: center;
+    color: brown;
+    font-size: 80px;
+    margin: 2%;
+  }
+  .OMG {
+    width: 435px;
+    height: 612px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
